@@ -1,10 +1,19 @@
-# Python workspace
+# Python database migration
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/gadc1996/python-workspace)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-## Description
-Ready to go python development workspace
 
-## Setting Up
+## Description
+Convert awful file databases in to a json file that can then be used to populate a database using an ORM
+
+### Supported formats
+- .xls
+- .xlsx
+- .xlsm
+- .xlsb
+- .ods
+- .csv
+
+## Installation
 ### Prerequisites
 
 Before you begin, make sure you have the following:
@@ -12,7 +21,7 @@ Before you begin, make sure you have the following:
 - [Docker](https://www.docker.com/) installed on your system.
 - [Visual Studio Code](https://code.visualstudio.com/) installed.
 
-## Installation
+### Setting up
 1. Clone repository
 ```
 git clone https://github.com/gadc1996/django-api
@@ -23,7 +32,7 @@ git clone https://github.com/gadc1996/django-api
 cp .env.example .env
 ```
 
-## Installing Dev Containers
+#### Installing Dev Containers
 
 Follow these steps to install Dev Containers:
 
@@ -33,7 +42,7 @@ Follow these steps to install Dev Containers:
 
 3. Restart Visual Studio Code if prompted.
 
-## Basic Usage of Dev Containers
+#### Basic Usage of Dev Containers
 
 To use Dev Containers with your project:
 
@@ -49,3 +58,12 @@ To use Dev Containers with your project:
    ![image](https://github.com/gadc1996/django-api/assets/67934500/0bb9f5ca-f6a4-4cd1-869c-77283c489d73)
 
    Enjoy the flexibility and consistency that Dev Containers offer for your software development!
+
+
+## Usage
+1. Add input files into `files/` directory
+
+2. Run script
+```bash
+python main.py
+```
