@@ -61,9 +61,11 @@ To use Dev Containers with your project:
 
 
 ## Usage
-1. Add input files into `files/` directory
+1. Add input files into `data/input/` directory
 
 2. Run script
 ```bash
 python main.py
 ```
+
+3. Generated files can be found in `data/output` directory
